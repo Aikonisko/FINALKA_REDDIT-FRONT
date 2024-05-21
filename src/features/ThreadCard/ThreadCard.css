@@ -1,0 +1,45 @@
+/* Global */
+
+
+/* Skeleton */
+
+.skeletonContent {
+  background-color: rgb(233, 134, 229);
+  padding: 3px;
+  color: rgb(203, 110, 229);
+  border-radius: 5px;
+  margin: 3px;
+}
+
+/* Header */
+
+.subredditIcon.subreddit {
+  display: none;
+}
+
+/* BODY */
+
+.previewImage {
+  max-width: 100%;
+  height: auto;
+}
+
+.ThreadCard .threadPreview .thumbnail {
+  float: left;
+  border-radius: var(--radius);
+  margin-right: 0.5rem;
+  background-color: #ffffff;
+}
+
+.react-player__preview {
+  background-size: contain !important;
+  background-repeat: no-repeat;
+}
+
+.postFlair {
+  margin-right: 0.3rem;
+  float: left;
+  min-width: max-content;
+  padding: 0px 0.5rem;
+  border-radius: 1rem;
+}
